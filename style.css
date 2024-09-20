@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+.topnavul1{
+    margin-left:220px;
+    color: white;
+    margin-top: 15px;
+    
+}
+.topnavul2{
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+   
+}
+.topnavul2>li{
+    margin-right: 10px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023b6d;
+    height: 30px;
+    
+}
+
+
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    margin-left: 10px;
+}
+nav ul li{
+    padding: 5px;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    height: 30px;
+    background: #023b6d;
+    display: flex;
+    align-items: center;
+}
+
+.navrow{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  
+    
+
+}
+
+.navlist>ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+/* .appendss>h3>a{
+    text-decoration: none;
+    color: black;
+
+} */
+
+.navlist>ul>li>a{
+    text-decoration: none;
+    color: rgb(25, 27, 28);
+    padding: 5px;
+
+}
+.navlist>ul>li>a :hover{
+    text-decoration: underline;
+}
+
+
+
+/* for opacity of navbar over baner */
+
+/* .heads */
+
+
+/* .heads>ul>li{
+    padding: 5px;
+} */
+
+
+/* for sticky head */
+
+/* .navrow.sticky{
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    opacity: 1;
+} */
+
+.getstarted{
+    background-color: red;
+}
+
+.jrfu{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.banner{
+    background-image: url(img/hero-bg.jpg);
+    height: 700px;
+    /* size: 100%; */
+    
+    /* filter: grayscale(10%); */
+    /* padding-top: -200px; */
+    position: relative;
+    top: -41px;
+    filter: grayscale(15%);
+
+}
+
+
+.banner-content{
+    padding-top: 250px;
+    padding-left: 150px;
+}
+
+/* .banner-content>h3{
+    
+} */
+
+.abc1{
+    padding: 70px;
+}
+/* .iimg1{
+    background-color: aliceblue;
+    color: red;
+    border-radius: 25%;
+} */
+
+/* @media screen and (max-width: 600px) {
+    abc{
+    display: block;
+    }
+    } */
+
+/* .row5{
+    height: auto;
+    background-image:url(img/stats-bg.jpg) ;
+} */
+
+
+stats:before {
+    content: "";
+    background: color-mix(in srgb, var(--background-color), transparent 40%);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+} 
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+section, .section {
+    /* color: var(--default-color);
+    background-color: var(--background-color); */
+    padding: 60px 0;
+    scroll-margin-top: 98px;
+    overflow: clip;
+}
+
+#stats{
+    background-image: url(img/stats-bg.jpg);
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+/* .service-head{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+} */
+.service{
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+}
+.section-head h3::before,
+.section-head h3::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: rgb(240, 11, 11);
+    display: inline-block;
+    /* margin-bottom: 15px; ;
+    margin-left: 10px; */
+}
+::after, ::before{
+    box-sizing: border-box;
+}
+/* .service h3 ::before{
+    margin: 0 15px 10px 0;
+} */
